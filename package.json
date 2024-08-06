@@ -11,7 +11,8 @@
 		"lint": "eslint src",
 		"test": "vitest run --sequence.concurrent src/**",
 		"test.all": "vitest run --sequence.concurrent",
-		"test-vectors": "vitest run --sequence.concurrent test-vectors/**"
+		"test-vectors": "vitest run --sequence.concurrent test-vectors/**",
+		"bench": "vitest bench"
 	},
 	"files": [
 		"/dist/"
